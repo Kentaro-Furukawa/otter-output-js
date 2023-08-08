@@ -17,7 +17,7 @@ function handleConvert() {
 function convertToCSV(inputValue) {
   // remove unwanted parts
   const removeRegex = /^(\s*\|\s*)|(\s*\|\s*$)|(^\s*\+[+-\|]+\+\s*$)(\n)?/gm;
-  const valueRemvedFragments = inputValue.replace(removeRegex,"");
+  const valueRemvedFragments = inputValue.replace(removeRegex, "");
   // put commas
   const replaceToCommaRegex = /\s*\|\s*/gm;
   const replacedPipesValue = valueRemvedFragments.replace(replaceToCommaRegex, ",");
