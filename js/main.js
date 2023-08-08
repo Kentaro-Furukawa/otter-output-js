@@ -7,11 +7,11 @@ convertButton.addEventListener('click', () => {
 
 function handleConvert() {
   const inputValue = document.querySelector("#input").value;
-  const outPut = document.querySelector("#output");
+  const output = document.querySelector("#output");
   // get converted value
   const CSVValue = convertToCSV(inputValue);
   // show output
-  outPut.innerText = CSVValue
+  output.innerText = CSVValue;
 }
 
 function convertToCSV(inputValue) {
