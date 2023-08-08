@@ -4,26 +4,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
   <script defer src="js/main.js"></script>
   <title>Otter Output JS</title>
 </head>
 
 <body>
-  <h1>Otter Output JS</h1>
-  <h2>"Dive into Data Conversion" or "Smooth Streams, Perfect Outputs."</h2>
-  <p>Otter Output converts SQL query output to CSV format!</p>
-  <textarea id="input" cols="80" rows="30">
-    +----+---------+--------+---------+
-    | ID |  Name   |  Age   |  Grade  |
-    +----+---------+--------+---------+
-    | 1  | Alice  |  20    |  B       |
-    | 2  | Bob    |  22    |  A       |
-    | 3  | Charlie|  21    |  C       |
-    | 4  | David  |  23    |  B       |
-    +----+---------+--------+---------+
-  </textarea>
-  <button id="convert">Convert</button>
-  <div id="output"></div>
+  <main class="main-container">
+    <h1 class="main-title">Otter Output JS</h1>
+    <h2 class="main-sub-title">"Dive into Data Conversion" or "Smooth Streams, Perfect Outputs."</h2>
+    <p class="lead-paragraph">Otter Output converts SQL query output to CSV format!</p>
+    <div class="convert-container">
+    <div class="input-wrap">
+      <h3 class="input-title">Input here!</h3>
+      <textarea id="input" class="input-textarea" cols="50" rows="20">
+        +----+---------+--------+---------+
+        | ID |  Name   |  Age   |  Grade  |
+        +----+---------+--------+---------+
+        | 1  | Alice  |  20    |  B       |
+        | 2  | Bob    |  22    |  A       |
+        | 3  | Charlie|  21    |  C       |
+        | 4  | David  |  23    |  B       |
+        +----+---------+--------+---------+
+      </textarea>
+    </div>
+    <button id="convert" class="convert-button primary-button">Convert</button>
+    <div id="output" class="output-container"></div>
+    </div>
+  </main>
 </body>
 
 </html>

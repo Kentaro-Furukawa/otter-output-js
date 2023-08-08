@@ -1,0 +1,90 @@
+
+:root {
+  --font-sans: "Poppins", sans-serif;
+  --clr-primary: hsl(207 100% 94%);
+  --clr-txt: hsl(210 40% 80%);
+  --clr-bg: hsl(210 47% 12%);
+  --overlay-bg: radial-gradient(hsl(206 50% 11% / 60%), var(--clr-bg));
+  --clr-box-bg: linear-gradient( 180deg, hsl(210 47% 14%) 0%, hsl(210 47% 12%) 100% );
+
+  --clr-1: hsl(261, 100%, 66%);
+  --clr-2: hsl(180 60% 80%);
+  --clr-3: hsl(173 100% 66%);
+
+  --rounded-4: 4px;
+  --rounded-20: 20px;
+}
+
+.primary-button {
+  transition: all 400ms ease-out;
+}
+
+.primary-button:hover {
+  filter: brightness(.8);
+}
+
+.main-container {
+  font-family: var(--font-sans);
+  color: var(--clr-primary);
+  background-image: var(--overlay-bg);
+  padding: 2em 1em;
+}
+
+.main-title {
+  font-size: 5em;
+  text-align: center;
+  padding: 0 0 .5em;
+}
+
+.main-sub-title {
+  font-size: 2em;
+  text-align: center;
+  padding: 0 0 1em;
+}
+
+.lead-paragraph {
+  font-size: 1.5em;
+  text-align: center;
+  padding: 0 0 1em;
+}
+
+.convert-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.input-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  background-image: var(--clr-box-bg);
+  border-radius: var(--rounded-20);
+  padding: 2em;
+}
+
+.input-title {
+  font-size: 1.8em;
+}
+
+.input-textarea {
+  border-radius: var(--rounded-4);
+}
+
+.convert-button {
+  color: var(--clr-primary);
+  font-size: 1.5em;
+  font-weight: 900;
+  padding: .5em 2em;
+  border: var(--clr-1);
+  border-radius: var(--rounded-4);
+  background-color: var(--clr-1);
+}
+
+.output-container {
+  background-image: var(--clr-box-bg);
+  border-radius: var(--rounded-20);
+  padding: 3em;
+}
