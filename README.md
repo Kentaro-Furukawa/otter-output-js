@@ -2,7 +2,7 @@
 
 A simple web app to instantly convert SQL select results to CSV format. Works entirely on the client side, ensuring the safety of your data. 🚀
 
-# Live Demo page
+# Live Demo
 
 [Live on Vercel](https://otter-output-js.vercel.app/)
 
@@ -11,7 +11,7 @@ A simple web app to instantly convert SQL select results to CSV format. Works en
 ## Table of Contents
 
 - [SQL output to CSV Converter](#sql-output-to-csv-converter)
-- [Live Demo page](#live-demo-page)
+- [Live Demo](#live-demo)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [Usage](#usage)
