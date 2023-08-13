@@ -6,8 +6,6 @@ A simple web app to instantly convert SQL select results to CSV format. Works en
 
 [Live on Vercel](https://otter-output-js.vercel.app/)
 
-
-
 ## Table of Contents
 
 - [SQL output to CSV Converter](#sql-output-to-csv-converter)
@@ -28,6 +26,7 @@ A simple web app to instantly convert SQL select results to CSV format. Works en
 
 1. Navigate to the SQL to CSV Converter web app.
 2. Input your SQL select result table in the given format:
+
 ```
 +----+---------+--------+---------+
 | ID |  Name   |  Age   |  Grade  |
@@ -38,6 +37,7 @@ A simple web app to instantly convert SQL select results to CSV format. Works en
 | 4  | David  |  23    |  B      |
 +----+---------+--------+---------+
 ```
+
 3. Click the "Convert" button.
 4. Receive your data in CSV format instantly.
 

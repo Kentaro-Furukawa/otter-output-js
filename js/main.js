@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
 const convertButton = document.querySelector("#convert");
-convertButton.addEventListener('click', () => {
-  handleConvert()
-})
+convertButton.addEventListener("click", () => {
+  handleConvert();
+});
 
 function handleConvert() {
   const inputValue = document.querySelector("#input").value;
@@ -20,7 +20,10 @@ function convertToCSV(inputValue) {
   const valueRemvedFragments = inputValue.replace(removeRegex, "");
   // put commas
   const replaceToCommaRegex = /\s*\|\s*/gm;
-  const replacedPipesValue = valueRemvedFragments.replace(replaceToCommaRegex, ",");
+  const replacedPipesValue = valueRemvedFragments.replace(
+    replaceToCommaRegex,
+    ",",
+  );
 
-  return replacedPipesValue
+  return replacedPipesValue;
 }
